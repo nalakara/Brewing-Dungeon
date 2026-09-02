@@ -1,0 +1,6 @@
+{
+  "name": "Brewing Dungeon",
+  "description": "An innovative application designed to empower coffee enthusiasts with the knowledge and tools for crafting exceptional coffee, offering precise calculations, ratios, and detailed instructions for various brewing techniques.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
