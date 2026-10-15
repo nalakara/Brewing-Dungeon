@@ -2,6 +2,8 @@
 
 Brewing Dungeon adalah aplikasi web interaktif (*single-page application*) yang berfungsi sebagai kalkulator rasio kopi, katalog metode seduh manual (*manual brew*), dan generator panduan seduh berbasis AI menggunakan Google Gemini.
 
+🌐 **Live Demo**: https://brewing-dungeon.vercel.app
+
 ---
 
 ## One-Line Description
@@ -111,3 +113,18 @@ Aplikasi ini dibuat sebagai purwarupa (*functional prototype*) untuk membantu pe
 * **Setup API Key**: Buat file `.env.local` atau tentukan *environment variable* `GEMINI_API_KEY` sebelum menjalankan `npm run dev`.
 * **Desain Bergaya Mobile**: Tata letak saat ini dibatasi dengan `max-w-lg mx-auto` yang dioptimalkan untuk tampilan smartphone/layar sempit.
 * **Perpindahan ke Backend**: Jika aplikasi ini akan dipublikasikan ke production publik, buat endpoint server ringan (Express / Next.js API route / Cloud Function) untuk memanggil API Gemini agar kunci API tidak terekspos ke browser pengguna.
+
+## Cara Menjalankan
+
+```bash
+npm install
+cp .env.example .env   # isi GEMINI_API_KEY untuk panduan seduh AI
+npm run dev
+```
+
+Buka `http://localhost:3000`. Tanpa API key, kalkulator rasio dan katalog metode tetap berfungsi penuh.
+---
+
+## License
+
+MIT License © 2026 Yudhan Sebastian
